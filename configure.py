@@ -1,1 +1,3 @@
-API_KEY = "PASTE_YOUR_GEMINI_API_KEY_HERE"
+import os
+
+API_KEY = os.getenv('GEMINI_API_KEY')
